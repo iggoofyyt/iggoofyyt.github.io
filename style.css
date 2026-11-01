@@ -700,44 +700,8 @@ footer {
 }
 
 /* Live Demo Button */
-.project-links {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    margin-top: 24px;
-    padding-top: 4px;
-    clear: both;
-    position: relative;
-}
 
-.live-demo-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 13px 24px;
-    border: 1.5px solid #00d9ff;
-    border-radius: 10px;
-    background: linear-gradient(135deg, #063b50, #102638);
-    color: #00e5ff;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 217, 255, 0.12);
-}
 
-.live-demo-btn i {
-    font-size: 17px;
-}
-
-.live-demo-btn:hover {
-    background: linear-gradient(135deg, #00c6e8, #007fba);
-    color: #ffffff;
-    transform: translateY(-3px);
-    box-shadow: 0 8px 22px rgba(0, 217, 255, 0.3);
-}
 
 .live-demo-btn:focus-visible {
     outline: 3px solid #ffffff;
